@@ -30,3 +30,5 @@ int main()
     cout<<count;
     return 0;
 }
+
+//the problem restricts no of children in a gondola to 1 or 2 thus the most efficient strategy is to combine the heaviest and lightest child together progressively from both ends
