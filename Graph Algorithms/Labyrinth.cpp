@@ -75,16 +75,6 @@ int main()
     vvi vis(n, vi(m, 0));
     vvi parentDir(n, vi(m, -1));
     string path;
-    // if (dfs(start, end, vis, path, grid))
-    // {
-    //     cout << "YES" << '\n';
-    //     cout << path.size() << '\n';
-    //     cout << path;
-    // }
-    // else
-    // {
-    //     cout << "NO" << '\n';
-    // }
     string ans;
     queue<pair<int, int>> q;
     q.push(start);
